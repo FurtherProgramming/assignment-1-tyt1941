@@ -53,9 +53,6 @@ public class BookStore {
 
     /**
      * Print option list and read input option.
-     *
-     * @param scanner scanner
-     * @return option
      */
     private static int printChooseOption(Scanner scanner) {
         System.out.println("Choose an option:");
@@ -71,8 +68,6 @@ public class BookStore {
 
     /**
      * Add book to the shopping cart.
-     *
-     * @param scanner Scanner
      */
     private static void addBookToShoppingCart(Scanner scanner) {
         System.out.print("Enter title to search for: ");
@@ -146,8 +141,6 @@ public class BookStore {
 
     /**
      * View the shopping cart.
-     *
-     * @param scanner Scanner
      */
     private static void viewShoppingCart(Scanner scanner) {
         if (sShoppingCart == null) {
@@ -161,8 +154,6 @@ public class BookStore {
 
     /**
      * Remove a book from shopping cart
-     *
-     * @param scanner Scanner
      */
     private static void removeBookFromShoppingCart(Scanner scanner) {
         if (sShoppingCart == null) {
@@ -225,9 +216,6 @@ public class BookStore {
 
     /**
      * Read int option from scanner input.
-     *
-     * @param scanner scanner
-     * @return option input
      */
     private static int readIntFromScanner(Scanner scanner) {
         int option;
@@ -246,9 +234,6 @@ public class BookStore {
 
     /**
      * Read String option from scanner input.
-     *
-     * @param scanner scanner
-     * @return String
      */
     private static String readStringFromScanner(Scanner scanner) {
         while (true) {
