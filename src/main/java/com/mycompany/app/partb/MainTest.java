@@ -4,6 +4,6 @@ public class Maintest{
 
     @Test
     public void test1() {
-        BookStore.mian(new String[0]);
+        BookStore.main(new String[0]);
     }
 }
